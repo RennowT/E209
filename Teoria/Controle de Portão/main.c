@@ -4,7 +4,7 @@
 #define FECHANDO 4
 
 int main() {
-    unsigned char estadoPortao = 0;
+    unsigned char estadoPortao = FECHADO;
     unsigned char MotorFechando, MotorAbrindo, SensorFechado, SensorAberto, ComandoFechar, ComandoAbrir;
 
     while (1) {
